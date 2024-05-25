@@ -1,0 +1,39 @@
+TYPE_I : int
+ID : a
+ASSIGN : =
+NUM : 20
+SEMI : ;
+TYPE_I : int
+ID : b
+ASSIGN : =
+NUM : 10
+SEMI : ;
+TYPE_I : int
+ID : c
+ASSIGN : =
+NUM : 15
+SEMI : ;
+TYPE_I : int
+ID : d
+ASSIGN : =
+NUM : 5
+SEMI : ;
+TYPE_I : int
+ID : e
+SEMI : ;
+TYPE_I : int
+ID : main
+L_RB : (
+R_RB : )
+L_CB : {
+ID : e
+ASSIGN : =
+ID : a
+PLUS: +
+ID : b
+MULTIPLY: *
+ID : c
+DIVIDE: /
+ID : d
+SEMI : ;
+R_CB : }
